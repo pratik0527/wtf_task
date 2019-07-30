@@ -1,0 +1,414 @@
+<html>
+    <head>
+        <title>WTF Task</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <div class="container-fluid full-body">
+            <header>
+                <div class="container-fluid head">
+                    <p class="text-center head-text">A Web Page</p>
+                    
+                    <div class="row row-margin">
+                        <div class="col-sm-3">
+                            <p>
+                                <a><span class="glyphicon glyphicon-arrow-left icon-size"></span></a>
+                                <a><span class="glyphicon glyphicon-arrow-right icon-size"></span></a>
+                                <a><span class="glyphicon glyphicon-remove icon-size"></span></a>
+                                <a><span class="glyphicon glyphicon-home icon-size"></span></a>
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" value="https://" class="head-link">
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <input type="search" class="head-search" placeholder="search">
+                        </div>
+                    </div>
+                    
+                    <p>&nbsp;</p>
+                </div>
+            </header>
+            
+            <!---------------------------------------- header end ---------------------------------------->
+            
+            <!---------------------------------------- body start ---------------------------------------->
+            
+            <div class="container-fluid main">
+                
+                <div class="row">
+                    
+            <!---------------------------------------- Section one ---------------------------------------->
+                    
+                    <div class="col-sm-4 types">
+                        <div class="text-center">
+                            <button class="w3-bar-item w3-button types-tab" onclick="opentype('Dine')">Dine</button>
+                            <button class="w3-bar-item w3-button types-tab" onclick="opentype('Home')">Home</button>
+                            <button class="w3-bar-item w3-button types-tab" onclick="opentype('Pickup')">Pickup</button>
+                            <button class="w3-bar-item w3-button types-tab" onclick="opentype('Online')">Online</button>
+                        </div>
+                        
+                        <div class="type-content">
+                            <div id="Dine" class="type">
+                                <div class="row row-margin">
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                    <div class="col-sm-3 dine-content"></div>
+                                </div>
+                            </div>
+                        
+                            
+                            <div id="Home" class="type" style="display:none">
+                                <p>You are on the Home page.</p>
+                            </div>
+                            
+                            <div id="Pickup" class="type" style="display:none">
+                                <p>You are on the Pickup page.</p>
+                            </div>
+                            
+                            <div id="Online" class="type" style="display:none">
+                                <p>You are now Online.</p>
+                            </div>
+                        
+                        </div>
+                        
+                        <br>
+                        
+                        
+                        <button class="btn1">Merge</button>
+                        <button class="btn1">Shift</button>
+                        
+                        <br><br>
+                        
+                    </div>
+                    
+                    
+            <!---------------------------------------- Section one ends ---------------------------------------->
+                    
+            <!---------------------------------------- Section Two ---------------------------------------->
+                    
+                    <br>
+                    
+                    <div class="col-sm-4 menu">
+                        <br>
+                        <p>
+                            <span>Categories</span>
+                            <input type="search" class="menu-search" placeholder="search">
+                        </p>
+                        <p>Most Sold</p>
+                        <div class="category-content">
+                            <button class="btn">Idly</button>
+                            <button class="btn">Dosa</button>
+                            <button class="btn">Upma</button>
+                            <button class="btn">Poha</button>
+                            <button class="btn">Noodles</button>
+                            <button class="btn">Rice</button>
+                            <button class="btn">Chapati</button>
+                            <button class="btn">Curd</button>
+                            <button class="btn">Uttapam</button>
+                            <button class="btn">Pongal</button>
+                            <button class="btn">Dal</button>
+                            <button class="btn">Rasam</button>
+                        </div>
+                        <br>
+                        <div class="dishes">
+                            <p>
+                                <span>Dishes</span>
+                                <input type="search" class="menu-search" placeholder="search">
+                            </p>
+                            <br>
+                            <iframe src="dishes.html" class="frame"></iframe>
+                            <br><br><br><br>
+                        </div>
+                        
+                    </div>
+                    
+                    
+            <!---------------------------------------- Section two ends ---------------------------------------->
+                    
+                    
+            <!---------------------------------------- Section three ---------------------------------------->
+                    
+                    <br><br>
+                    
+                    <div class="col-sm-4 bills">
+                        <div>
+                            <button class="w3-bar-item w3-button types-tab" onclick="openbill('one')">3</button>
+                            <button class="w3-bar-item w3-button types-tab" onclick="openbill('two')">3A</button>
+                            <button class="w3-bar-item w3-button types-tab" onclick="openbill('three')">3B</button>
+                            <span class="glyphicon glyphicon-plus icon-size" style="padding: 0px"></span>
+                        </div>
+                        
+                        <div class="type-content">
+                            <div id="one" class="bill">
+                                
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <br>
+                                        <p class="text-center">
+                                            <span>Waiter</span>
+                                            <select>
+                                                <option value="Raju">Raju</option>
+                                                <option value="Rishabh">Rishabh</option>
+                                                <option value="Rahul">Rahul</option>
+                                                <option value="Rohit">Rohit</option>
+                                            </select>
+                                        </p>
+                                        <br>
+                                        <p class="text-center">
+                                            <span>No of persons</span>
+                                            <input type="number" value="1" min="1" style="width: 50px">
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <span style="font-size: 80px">3</span>
+                                    </div>
+                                </div>
+                                
+                                <select class="select-kot">
+                                    <option value="Printed"> Printed KOTs</option>
+                                    <option value="NonPrinted"> Non Printed KOTs</option>
+                                </select>
+                                
+                                <iframe src="bill.html" height="300px" class="frame"></iframe>
+                                
+                                <br><br>
+                                
+                                <div class="discount">
+                                    <br><br>
+                                    
+                                    <table style="width: 100%">
+                                        
+                                        <tr class="text-center">
+                                            <td>Discount</td>
+                                            <td>
+                                                <select>
+                                                    <option value="Gold">Gold</option>
+                                                    <option value="Premium">Premium</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class="text-center">
+                                            <td>Total Amount</td>
+                                            <td style="font-size: 50px">450</td>
+                                        </tr>
+                                        
+                                        <tr class="text-center">
+                                            <td><button class="btn1">BILL</button></td>
+                                            <td><button class="btn1">SETTLE</button></td>
+                                        </tr>
+                                        
+                                    </table>
+                                    <br>
+                                </div>
+                                <br>
+                                
+                            </div>
+                            
+                            
+            <!---------------------------------------- Section three tab one end ---------------------------------------->
+                            
+            <!---------------------------------------- Section three tab two ---------------------------------------->
+                            
+                            <div id="two" class="bill" style="display:none">
+                                
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <br>
+                                        <p class="text-center">
+                                            <span>Waiter</span>
+                                            <select>
+                                                <option value="Raju">Raju</option>
+                                                <option value="Rishabh">Rishabh</option>
+                                                <option value="Rahul">Rahul</option>
+                                                <option value="Rohit">Rohit</option>
+                                            </select>
+                                        </p>
+                                        <br>
+                                        <p class="text-center">
+                                            <span>No of persons</span>
+                                            <input type="number" value="1" min="1" style="width: 50px">
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <span style="font-size: 80px">3A</span>
+                                    </div>
+                                </div>
+                                
+                                <select class="select-kot">
+                                    <option value="Printed"> Printed KOTs</option>
+                                    <option value="NonPrinted"> Non Printed KOTs</option>
+                                </select>
+                                
+                                <iframe src="bill.html" height="300px" class="frame"></iframe>
+                                
+                                <br><br>
+                                
+                                <div class="discount">
+                                    <br><br>
+                                    
+                                    <table style="width: 100%">
+                                        
+                                        <tr class="text-center">
+                                            <td>Discount</td>
+                                            <td>
+                                                <select>
+                                                    <option value="Gold">Gold</option>
+                                                    <option value="Premium">Premium</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class="text-center">
+                                            <td>Total Amount</td>
+                                            <td style="font-size: 50px">450</td>
+                                        </tr>
+                                        
+                                        <tr class="text-center">
+                                            <td><button class="btn1">BILL</button></td>
+                                            <td><button class="btn1">SETTLE</button></td>
+                                        </tr>
+                                        
+                                    </table>
+                                    <br>
+                                </div>
+                                <br>
+                                
+                            </div>
+                            
+            <!---------------------------------------- Section three tab two end ---------------------------------------->
+                            
+            <!---------------------------------------- Section three tab three ---------------------------------------->
+                            
+                            <div id="three" class="bill" style="display:none">
+                                
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <br>
+                                        <p class="text-center">
+                                            <span>Waiter</span>
+                                            <select>
+                                                <option value="Raju">Raju</option>
+                                                <option value="Rishabh">Rishabh</option>
+                                                <option value="Rahul">Rahul</option>
+                                                <option value="Rohit">Rohit</option>
+                                            </select>
+                                        </p>
+                                        <br>
+                                        <p class="text-center">
+                                            <span>No of persons</span>
+                                            <input type="number" value="1" min="1" style="width: 50px">
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <span style="font-size: 80px">3B</span>
+                                    </div>
+                                </div>
+                                
+                                <select class="select-kot">
+                                    <option value="Printed"> Printed KOTs</option>
+                                    <option value="NonPrinted"> Non Printed KOTs</option>
+                                </select>
+                                
+                                <iframe src="bill.html" height="300px" class="frame"></iframe>
+                                
+                                <br><br>
+                                
+                                <div class="discount">
+                                    <br><br>
+                                    
+                                    <table style="width: 100%">
+                                        
+                                        <tr class="text-center">
+                                            <td>Discount</td>
+                                            <td>
+                                                <select>
+                                                    <option value="Gold">Gold</option>
+                                                    <option value="Premium">Premium</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class="text-center">
+                                            <td>Total Amount</td>
+                                            <td style="font-size: 50px">450</td>
+                                        </tr>
+                                        
+                                        <tr class="text-center">
+                                            <td><button class="btn1">BILL</button></td>
+                                            <td><button class="btn1">SETTLE</button></td>
+                                        </tr>
+                                        
+                                    </table>
+                                    <br>
+                                </div>
+                                <br>
+                                
+                            </div>
+                            
+            <!---------------------------------------- Section three tab three end ---------------------------------------->
+                            
+                        </div>
+                        <br>
+                    </div>
+                    
+            <!---------------------------------------- Section three end ---------------------------------------->
+                </div>
+                
+            </div>
+            
+            
+            <!---------------------------------------- body end ---------------------------------------->
+            
+        </div>
+        
+        
+        <script>
+            function opentype(typeName) {
+                var i;
+                var x = document.getElementsByClassName("type");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                document.getElementById(typeName).style.display = "block";  
+            }
+        </script>
+        
+        <script>
+            function openbill(billName) {
+                var i;
+                var x = document.getElementsByClassName("bill");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                document.getElementById(billName).style.display = "block";  
+            }
+        </script>
+
+        
+    </body>
+</html>
